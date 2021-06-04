@@ -49,6 +49,13 @@ private:
     std::stack<Token> stack_{};
 };
 
+
+/**
+* Calculate result of expression
+*
+* @return result number multiplied by 100.
+*         last two digits indicate result digits after the decimal point
+*/
 int calculate(std::string&& expression);
 
 std::string format_number(int n);
